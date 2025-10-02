@@ -1,0 +1,39 @@
+.Pencil {
+    height: 500px;
+    display: block; /* Делаем изображение блочным */
+    margin-left: auto; /* Автоматическое поле слева */
+    margin-right: auto; /* Автоматическое поле справа */
+    margin-top: 100px;
+}
+
+.Pencil.active {
+    animation: penisok 0.4s ease-in;
+}
+
+.Button {
+    display: block; /* Делаем изображение блочным */
+    margin-left: auto; /* Автоматическое поле слева */
+    margin-right: auto; /* Автоматическое поле справа */
+    margin-top: -400px;
+
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.Label {
+    display: block; /* Преобразует label в блочный элемент */
+    text-align: center; /* Центрирует текст внутри label */
+}
+
+@keyframes penisok {
+    from {
+        height: 500px;
+    }
+
+    to {
+        height: 550px;
+    }
+}
